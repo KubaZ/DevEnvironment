@@ -1,0 +1,32 @@
+{
+  "name": "DevEnv",
+  "version": "0.0.1",
+  "description": "Setting dev environment",
+  "main": "index.js",
+  "directories": {
+    "doc": "doc"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/KubaZ/DevEnvironment.git"
+  },
+  "author": "",
+  "license": "BSD",
+  "readmeFilename": "README.md",
+  "gitHead": "c67b7393509e301a663f235ad802842d14690221",
+  "bugs": {
+    "url": "https://github.com/KubaZ/DevEnvironment/issues"
+  },
+  "devDependencies": {
+    "grunt-contrib-watch": "~0.4.4",
+    "grunt-contrib-less": "~0.6.0",
+    "phantomjs": "~1.9.0-6",
+    "mocha": "~1.10.0",
+    "grunt-contrib-jshint": "~0.6.0",
+    "grunt-mocha": "~0.3.4",
+    "grunt-contrib-uglify": "~0.2.2"
+  }
+}
