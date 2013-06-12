@@ -22,6 +22,11 @@ body {
     font-size: 1em;
     line-height: 1.4;
 }
+* { 
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box;         /* Opera/IE 8+ */
+}
 
 /*
  * Remove text-shadow in selection highlight: h5bp.com/i
@@ -92,20 +97,6 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -218,13 +209,6 @@ textarea {
 
 @media only screen and (min-width: 35em) {
     /* Style adjustments for viewports that meet the condition */
-}
-
-@media print,
-       (-o-min-device-pixel-ratio: 5/4),
-       (-webkit-min-device-pixel-ratio: 1.25),
-       (min-resolution: 120dpi) {
-    /* Style adjustments for high resolution devices */
 }
 
 /* ==========================================================================
