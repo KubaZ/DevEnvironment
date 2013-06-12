@@ -568,6 +568,39 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+.logo {
+  width: 239px;
+  height: 69px;
+  float: left;
+}
+.logo a {
+  width: 239px;
+  height: 69px;
+  display: block;
+}
+.logo a img {
+  display: block;
+  width: 239px;
+  height: 69px;
+}
+.site-header {
+  float: left;
+  width: 100%;
+  text-align: center;
+  padding: 20px;
+  background: #eee;
+}
+.site-content {
+  float: left;
+  width: 100%;
+  padding: 20px;
+}
+.site-footer {
+  float: left;
+  width: 100%;
+  padding: 20px;
+  background: #eee;
+}
 /* ==========================================================================
    Helper classes
    ========================================================================== */
